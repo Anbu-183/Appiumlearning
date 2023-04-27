@@ -22,7 +22,7 @@ public class Calculator {
     public void setUpTheCap() throws MalformedURLException {
         DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
         desiredCapabilities.setCapability("appium:deviceName", "Anbu");
-        desiredCapabilities.setCapability("appium:udid", "69217b32");
+        desiredCapabilities.setCapability("appium:udid", "******");
         desiredCapabilities.setCapability("platformName", "Android");
         desiredCapabilities.setCapability("appium:platformVersion", "12 SKQ1.211019.001");
         desiredCapabilities.setCapability("appium:appPackage", "com.google.android.calculator");
